@@ -68,4 +68,38 @@ Now one should be able to run Greeter.py to both deploy and test the contract. T
 
 ### Uploading your project to github
 
-For the sake of completeness I'll also show how one 
+For the sake of completeness I'll also show how one could upload a local project to github via the commandline. This code is for MacOS, though for other operating systems it'll be largely the same. 
+
+I will assume you already have git and gh installed in the command line. In MacOS this can be done via brew. 
+
+##### Authentication 
+
+To authenticate yourself via logging in the command lineone can 
+- gh auth login 
+and then just follow the instructions given. For alternative ways of logging in see 
+- https://docs.github.com/en/get-started/getting-started-with-git/set-up-git
+
+##### Uploading your local project
+
+- Navigate to the project path
+  - cd PROJECT_PATH
+- Initialise the git repo 
+  - git init
+- Create your README markdown file
+  - touch README.md 
+- Write things to the README.md 
+  - echo "Text you want people to read" >> README.md
+- Create your .gitignore file 
+  - touch .gitignore.txt
+- Add files to the .gitignore, for example we want the .env in the gitignore
+  - echo ".env" >> .gitignore
+- Add folders to the .gitignore, for example we dont want to upload the venv to git
+  - echo ".venv/" >> .gitignore
+- Get git to track all the remaining files 
+  - git add --A
+- Commit all the tracked files with a commit message 
+  - git commit -m "First commit!"
+- Push the commit, default branch name is main but I had issues and made it master
+  - git push -u origin BRANCHNAME
+
+Now your project should be up on github :)
