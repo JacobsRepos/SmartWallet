@@ -1,0 +1,4 @@
+.venv/
+.env
+Contracts/DeployedGreeter.json
+Contracts/DeployedSmartWallet.json
