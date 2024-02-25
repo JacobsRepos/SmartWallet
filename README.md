@@ -61,7 +61,9 @@ We will use the Ganache CLI for our local blockchain instance. You can [read up 
 ##### Node.js 
 
 This is the javascript runtime environment used to host and interact with the Ganache local blockchain. If you're not yet familiar with Node.js it is recommended you read up on it [here.](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs) To install on MacOS we can use homebrew. 
+
 - brew install node 
+
 Node.js comes with the npm javascript package manager, this is what we'll use to install the Ganache CLI. If you know nothing of Node.js this is all you really need to know about to proceed. 
 
 ##### Installing the Ganache CLI 
