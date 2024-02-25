@@ -20,7 +20,7 @@
 
 # Project_Description
 
-The aim of this project is to provide beginner smart contract developers the tools required to develop and test their contracts on a local blockchain instance, using python to interact with said blockchain and to compile the contracts. We will begin by setting up our workspace, which will include setting up Ganache as our local blockchain instance. Then we will deploy and test out the Greeter contract seen throughout the web3.py docs. This step acts as a test to check our working environment is set up correctly. Then we will move on to the juicier SmartWallet contract, which will allow us to send ETH to a smart contract stored on the blockchain, and further to withdraw it to the contract owner's wallet. 
+The aim of this project is to provide beginner smart contract developers the tools required to develop and test their contracts on a local blockchain instance, using python to interact with said blockchain and to compile the contracts. We will begin by setting up our workspace, which will include setting up Ganache as our local blockchain instance. Then we will deploy and test out the Greeter contract seen throughout the web3.py docs. This step acts as a test to check our working environment is set up correctly. Then we will move on to the juicier SmartWallet contract, which will allow us to send ETH to a smart contract stored on the blockchain, and further to withdraw it to the contract owner's wallet.
 
 # Setup 
 
@@ -92,7 +92,9 @@ See greeter.sol for an implementation with detailed comments. This contract:
 - Stores a string called greeting.
 - Has a function called set_greeting which takes in a new string to write to the greeting variable.
 - Has a function called greet which returns the currently stored greeting.
+  
 This minimalist contract allows us to test pretty much everything we need to see if our working environment is working ok as we test:
+
 - Variable storage (on the chain and inside methods).
 - Read only functions.
 - Write functions.
