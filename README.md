@@ -17,6 +17,10 @@
     - [Writing\_SmartWallet](#writing_smartwallet)
     - [Deploying\_SmartWallet](#deploying_smartwallet)
     - [Testing\_SmartWallet](#testing_smartwallet)
+ 
+# IMPORTANT NOTICE
+
+Ganache is now depreciated, it appears a tool in the crypto space cannot last more than a couple of years. I still recommend following this guide to learn some basics on smart contract development, however don't get yourself too familiar. The APE framework appears to be the best pythonic alternative at the time of writing (as brownie is typically also depreciated). 
 
 # Project_Description
 
