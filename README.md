@@ -20,7 +20,7 @@
  
 # IMPORTANT NOTICE
 
-Ganache is now depreciated, it appears a tool in the crypto space cannot last more than a couple of years. I still recommend following this guide to learn some basics on smart contract development, however don't get yourself too familiar. The APE framework appears to be the best pythonic alternative at the time of writing (as brownie is typically also depreciated). 
+Ganache is now depreciated, it appears a tool in the crypto space cannot last more than a couple of years. I still recommend following this guide to learn some basics on smart contract development, however don't get yourself too familiar. The APE framework appears to be the best pythonic alternative at the time of writing (as brownie is typically also depreciated). I'll have likely made a similarly styled APE tutorial if you're reading this. If not my condonlences, you'll have to figure it out yourself. 
 
 # Project_Description
 
